@@ -67,4 +67,57 @@ header{
         border: 0;
         border-radius: 0 4px 4px 0;
     }
-   
+
+
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*--------------------------------------------main seaction-----------------------------------------------------*/
+
+.banner_image {
+    width: 100%;
+}
+
+   .banner_container{
+    margin: 40px 0;
+   }
+
+   .category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+/*  ---------------------------------------------------------------------offer images div and items----------------------------*/
+
+.offer_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top:2%;
+}
+
+.item {
+    width: 250px;
+}
